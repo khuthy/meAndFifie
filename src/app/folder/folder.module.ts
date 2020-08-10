@@ -8,6 +8,7 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
 import { MainBarComponent } from '../Components/main-bar/main-bar.component';
+import { SubBarComponent } from '../Components/sub-bar/sub-bar.component';
 
 @NgModule({
   imports: [
@@ -16,6 +17,6 @@ import { MainBarComponent } from '../Components/main-bar/main-bar.component';
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage, MainBarComponent]
+  declarations: [FolderPage, MainBarComponent, SubBarComponent]
 })
 export class FolderPageModule {}
