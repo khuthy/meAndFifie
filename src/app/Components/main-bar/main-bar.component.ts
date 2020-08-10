@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-bar',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-bar.component.scss'],
 })
 export class MainBarComponent implements OnInit {
-
+ 
+  @Input() name;
+ 
   constructor() { }
 
   ngOnInit() {}
